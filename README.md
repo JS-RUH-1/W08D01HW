@@ -1,4 +1,4 @@
-## Jest Lab
+## Jest HW
 [Jest Cheat Sheet](https://github.com/sapegin/jest-cheat-sheet)
 1. Sum , toBe Jest Global Methods
     * Write a function that will accept any number of argument:
