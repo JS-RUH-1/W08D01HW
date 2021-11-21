@@ -10,7 +10,7 @@ test('Testing Sum', () => {
 
 test('Testing Fillter', () => {
     expect(filter("")).toBe("Unknown");
-    expect(filter("Remove the spaces")).toBe("Removethespaces");
+    expect(filter("S p a c e")).toBe("Space");
     expect(filter("Get first10 chars :)")).toBe("Get first1");
     expect(filter("_basel")).toBe("basel");
 

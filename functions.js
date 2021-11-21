@@ -4,17 +4,15 @@ function sum (...nums){
 
 
 function filter ( string ){
-    if ( string ){
-        if ( string == "" ){
+        if ( string === "" ){
             return "Unknown";
-        }else if ( /\s/g.test(string) ){
-            string.replace(/\s/g, '');
         }else if (string.length > 10){
-            return string.substring(0, 9);
+            return string.substring(0, 10ç);
+        }else if ( /\s/g.test(string) ){
+            return string.replace(/\s/g, '');
         }else if ( string.startsWith("_")){
             return string.substring(1);
         }
-    }
     return "Unknown";
 }
 
