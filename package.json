@@ -1,0 +1,23 @@
+{
+  "name": "W08D01HW",
+  "version": "1.0.0",
+  "description": "[Jest Cheat Sheet](https://github.com/sapegin/jest-cheat-sheet)\r 1. Sum , toBe Jest Global Methods\r     * Write a function that will accept any number of argument:\r         * Return the sum for all that numbers.\r         * If there is no parameter passed to it then return 0.\r     * Write a test that will show all cases to test the sum function, such as pass 0 parameter, 1, 2, 3 ,4...., (hint: use reduce) \r 2. Filter, toBe Jest Global Methods\r     * Write a function that will accept String and check:\r         * If the string is empty then return \"Unknown\".\r         * If the string passed with white space return it with no space.\r         * If the length of string passed more than 10 return only the first 10 characters. \r         * If the string passed started with underscore return it without underscore.\r     * Write a test that will show all cases to test the function",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0Yasser/W08D01HW.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0Yasser/W08D01HW/issues"
+  },
+  "homepage": "https://github.com/0Yasser/W08D01HW#readme",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}
