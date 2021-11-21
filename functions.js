@@ -10,13 +10,14 @@ function fillter ( string ){
         }else if ( /\s/g.test(string) ){
             string.replace(/\s/g, '');
         }else if (string.length > 10){
-            
-
+            return string.substring(0, 9);
+        }else if ( string.startsWith("_")){
+            return string.substring(1);
         }
     }
 }
 
-module.exports = sum
+module.exports = {sum, fillter}
 
 
 // If the string is empty then return "Unknown".
