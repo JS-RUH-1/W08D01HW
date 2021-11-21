@@ -1,4 +1,20 @@
-import { sum, fillter } from "./functions";
+const { sum, filter } = require ("./functions");
+
+
+test('Testing Sum', () => {
+    expect(sum(1, 2)).toBe(3);
+    expect(sum()).toBe(0);
+    expect(sum(1, 2, 3, 4)).toBe(10);
+});
+
+
+test('Testing Fillter', () => {
+    expect(filter("")).toBe("Unknown");
+    expect(filter("Remove the spaces")).toBe("Removethespaces");
+    expect(filter("Get first10 chars :)")).toBe("Get first1");
+    expect(filter("_basel")).toBe("basel");
+
+}); 
 
 // If the string is empty then return "Unknown".
 // If the string passed with white space return it with no space.

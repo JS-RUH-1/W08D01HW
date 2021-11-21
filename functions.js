@@ -3,10 +3,10 @@ function sum (...nums){
 }
 
 
-function fillter ( string ){
+function filter ( string ){
     if ( string ){
-        if ( string === "" ){
-            return "Unknown"
+        if ( string == "" ){
+            return "Unknown";
         }else if ( /\s/g.test(string) ){
             string.replace(/\s/g, '');
         }else if (string.length > 10){
@@ -15,9 +15,10 @@ function fillter ( string ){
             return string.substring(1);
         }
     }
+    return "Unknown";
 }
 
-module.exports = {sum, fillter}
+module.exports = {sum, filter}
 
 
 // If the string is empty then return "Unknown".
