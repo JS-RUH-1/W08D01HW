@@ -26,20 +26,7 @@
 
    else if(value.includes('_')) return value.split('_').join('')
 
-   
-    //  else if(value=>value.indexOf(''))
-    //  {
-    //   return value.replace(/\s/g, '');
-    //   }
-
-    //   else if(value.length > 10)
-    // {
-    //   return  value.slice(0,10);
-    // }
-
-    // else if(value => value.startsWith('_')){
-    //   return value.substring(1)
-    // }
+    
 
  }
 
