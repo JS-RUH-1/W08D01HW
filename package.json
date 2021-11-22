@@ -1,0 +1,10 @@
+{
+    "name": "W08D01HW",
+    "scripts": {
+        "start": "node app.js",
+        "test": "jest"
+    },
+    "devDependencies": {
+        "jest": "^27.3.1"
+    }
+}
